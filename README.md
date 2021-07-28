@@ -1,3 +1,11 @@
+**Discord 掃毒機器人**
+用VirusTotal掃描DC伺服器中的網址及檔案
+
+
+第一次執行的時候會產生錯誤並創建一個叫做config.json的檔案，用你的discord bot token及你的VirusTotal Api Token把他填好再次執行
+可以去settings.py(Cogs/settings.py)設定停止對其他Bot或特定文件類型檢查
+
+```
 # VirusTotalDiscordBot
 Simple Discord Bot that scans messages in Servers for urls and files and checks them with virus total
 
@@ -16,3 +24,4 @@ There is a different file names settings.py(Cogs/settings.py) where you can disa
 or specific file types
 
 Now the bot should send warnings on servers where urls, files and domains get posted and should test them
+```
